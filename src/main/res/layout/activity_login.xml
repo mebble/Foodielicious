@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Welcome!"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:background="#ffb74d"/>
+    <ImageView
+        android:src="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:text="Foodielicious.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="39sp"
+        android:textStyle="bold"
+        android:background="#ff8f00"/>
+
+    <TextView
+        android:text=".....the online storehouse of deliciousness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:background="#00695c"/>
+
+</LinearLayout>
